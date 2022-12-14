@@ -1,0 +1,79 @@
+
+body {
+    background-color: black;
+}
+
+#whole-thing {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    background-color: rgb(142, 245, 142);
+    border: 20px ridge rgb(250, 117, 117);
+}
+
+#display2 {
+    background-color: aliceblue;
+    color: blue;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid blue;
+
+    height: 80px;
+}
+
+#display {
+    text-align: end;
+    font-size: 28px;
+    padding-top: 10px;
+    margin-right: 50px;
+    // width: 100%;
+
+}
+
+#numbers {
+    padding: 5%;
+    display: flex-wrap;
+    align-items: center;
+    width: 60%;
+    float: left;
+}
+
+.btnN, .btnZero, .btnDecimal {
+    margin: 1% 0px 1% 2%;
+    width: 27%;
+    height: 80px;
+    margin-bottom: 5%;
+    color: orange;
+    text-shadow: 1px 1px white;
+    background-color: brown;
+    font-size: 28px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.btnS:hover, .btn:hover, .btnDecimal:hover, .btnClear:hover {
+    box-shadow: 2px 2px 2px white;
+}
+
+#operators {
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+}
+
+.btnS, .btnClear {
+    margin: 1% 0px 1% 2%;
+    width: 40%;
+    height: 80px;
+    margin-bottom: 6%;
+    color: orange;
+    text-shadow: 1px 1px white;
+    background-color: brown;
+    font-size: 28px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+
+
